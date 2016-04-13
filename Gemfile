@@ -8,8 +8,8 @@ gem 'simple_form', '~> 3.2', '>= 3.2.1'
 
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 # Use sqlite3 as the database for Active Record //if postgres doesn't work on herouk try with sqlite3
-gem 'sqlite3'
-# gem 'pg'
+
+gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
