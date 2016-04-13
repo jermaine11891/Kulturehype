@@ -4,6 +4,8 @@ gem 'devise', '~> 3.5', '>= 3.5.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
+
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 # Use sqlite3 as the database for Active Record //if postgres doesn't work on herouk try with sqlite3
 gem 'sqlite3'
