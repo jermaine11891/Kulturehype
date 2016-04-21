@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'tags/:tag', to: 'links#index', as: :tag 
   resources :comments
   resources :comments
   devise_for :users

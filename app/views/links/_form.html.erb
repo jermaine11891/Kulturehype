@@ -19,6 +19,10 @@
     <%= f.label :url %><br>
     <%= f.text_field :url, class: "form-control" %>
   </div>
+  <div class="form-group">
+  <%= f.label :tag_list, "Tags (separated by commas). Please specify link category: Art, Music, Fashion, Technology" %><br />
+  <%= f.text_field :tag_list %>
+  </div>
   <br>
   <div class="form-group">
     <%= f.submit "Submit", class: "btn btn-lg btn-primary" %>
